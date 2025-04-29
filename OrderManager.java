@@ -1,6 +1,9 @@
 
-// OrderManager.java
 import java.util.*;
+
+// This class uses a queue and stack to manage pending orders and completed orders. It also 
+// utilizes a bubble sort to sort each order by the number of items per order which is distinct
+// for each customer. 
 
 public class OrderManager {
     private Queue<Order> pendingOrders;
@@ -10,11 +13,11 @@ public class OrderManager {
         pendingOrders = new LinkedList<>();
         completedOrders = new Stack<>();
     }
-
+// Method to add orders to the pending queue
     public void addOrder(Order order) {
         pendingOrders.add(order);
     }
-
+//  processes the next order in the queue, which then moves it to the completed orders
     public void processOrder() {
         if (!pendingOrders.isEmpty()) {
             completedOrders.push(pendingOrders.poll());
@@ -29,7 +32,7 @@ public class OrderManager {
         return completedOrders;
     }
 
-    // Sorting pending orders by number of items (Bubble Sort for demonstration)
+    // Sorting pending orders by number of items using a bubble sort
     public List<Order> getPendingOrdersSorted() {
         List<Order> sorted = new ArrayList<>(pendingOrders);
         for (int i = 0; i < sorted.size(); i++) {
