@@ -68,19 +68,16 @@ Tests include:
 
 ---
 
- Screenshots
--- Include screenshots of GUI -- TODO
-<img width="365" alt="Screenshot 2025-04-29 at 1 33 44 PM" src="https://github.com/user-attachments/assets/a6bd9e71-5a94-459e-b7d2-07f81b7cb2c5" />
-<img width="363" alt="Screenshot 2025-04-29 at 1 33 35 PM" src="https://github.com/user-attachments/assets/359401cc-ed31-475e-958d-c1b8559e291b" />
-<img width="364" alt="Screenshot 2025-04-29 at 1 33 26 PM" src="https://github.com/user-attachments/assets/04999a9f-7337-4037-baba-a70476c763c4" />
-<img width="750" alt="Screenshot 2025-04-29 at 1 33 00 PM" src="https://github.com/user-attachments/assets/07f139d8-f2ac-4661-8f3a-7ba50928698c" />
+Screenshots of GUI on Final Report!
+Could not format it properly on this README file :(
 
----
+--- 
 
  Author
 Colton Ferguson 
 Final Project for CIS 153 - Data Structures
 Instructed by Byran Burkhardt
+
 
 ---
 Thank you for reviewing this project!
