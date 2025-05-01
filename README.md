@@ -32,10 +32,6 @@ The program includes a GUI (Graphical User Interface) built with Java Swing for 
 
  How to Run
 
-Prerequisites
-- Java JDK 8 or higher
-- IDE such as IntelliJ IDEA or Eclipse
-
  Steps
 1. Clone the repository:
    ```bash
@@ -52,21 +48,6 @@ Prerequisites
 - Process Order: Click "Process Order" to move the oldest order from the pending queue to the completed stack.
 - Show Sorted Orders: Click to sort and display pending orders by the number of items.
 
----
-
- Running Unit Tests
-The project uses **JUnit 5** for testing the `OrderManager` class.
-
-To run tests:
-- Open `OrderManagerTest.java`
-- Run using your IDE’s JUnit test runner
-
-Tests include:
-- Adding and retrieving orders
-- Sorting functionality
-- Processing completed orders
-
----
 
 Screenshots of GUI on Final Report!
 Could not format it properly on this README file :(
